@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: white;
+}
+p{
+  width: 100%;
+  max-width: 600px;
+  center;
+}
+#image {
+  width: 100%;
+  max-width: 600px;
+  heigth: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
