@@ -1,13 +1,22 @@
 <main id="main">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.7.1/min/tiny-slider.js"></script>
   <header id="title">
     <h1>Bookcatalog</h1>
   </header>
-
-  <body>
-    <div id="img-div">
-      <img id="image" src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1554919465/shape/mentalfloss/istock-157382617.jpg">
-      <h4 id="img-caption"></h4>
+  
+      <div class="c-modal__backdrop">
+  <div class="c-modal">
+    <div class="c-carousel js-carousel">
+      <img class="c-carousel__item" src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1554919465/shape/mentalfloss/istock-157382617.jpg"/>
+      <img class="c-carousel__item" src="https://www.trafalgar.com/real-word/wp-content/uploads/sites/3/2020/03/Strahov-Library-Prague-1.jpg"/>
+      <img class="c-carousel__item" src="https://www.rd.com/wp-content/uploads/2016/10/26-impressive-libraries-MontanaHearstFreeLibrary.jpg?fit=640,427"/>
     </div>
+  </div>
+</div>
+  
+  
+  <body>
+    
     <p>To many people books are so much more tan just random words mixed together and pasted on a paper, they are keys that unlock the potential of the imagination , a small window to connect with ourselves, learn something or see ourselves reflected on the characters from those books</p>
     <ul id="tribute-info">
       <li>A Book a day keeps the brain awake</li>
@@ -47,6 +56,7 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-
+    
+    
   </body>
 </main>

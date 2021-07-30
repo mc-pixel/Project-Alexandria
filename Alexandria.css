@@ -1,17 +1,86 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.7.1/tiny-slider.css");
 body {
   background-color: black;
   color: white;
 }
 p{
+  padding-top:100px;
   width: 100%;
   max-width: 600px;
-  center;
 }
-#image {
+
+.c-modal__backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   width: 100%;
-  max-width: 600px;
-  heigth: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  height: 100vh;
+}
+
+.c-modal {
+  position: relative;
+  width: 600px;
+  left:20px;
+  background-color: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+}
+
+.c-carousel__item {
+  width: 100%;
+}
+
+.tns-controls > button {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: 0;
+  color: #FFF;
+  font-size: 24px;
+  opacity: 0.8;
+  transition: opacity .3s ease;
+}
+
+.tns-controls > button:hover {
+  opacity: 0.3;
+}
+
+
+.tns-controls > button:focus {
+  outline: 0;
+}
+
+.tns-controls > button:first-child {
+  left: 10px;
+}
+
+.tns-controls > button:last-child {
+  right: 10px;
+}
+
+.tns-nav {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  z-index: 100;
+  transform: translateX(-50%);
+}
+
+.tns-nav button {
+  border: 0;
+  background-color: white;
+  height: 4px;
+  width: 12px;
+  opacity: 0.8;
+  transition: width .2s ease-out;
+}
+
+.tns-nav button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.tns-nav button.tns-nav-active {
+  width: 36px;
 }
