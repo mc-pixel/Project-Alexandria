@@ -9,6 +9,10 @@ p{
   max-width: 600px;
 }
 
+#tribute-info{
+  padding-left:100px;
+}
+
 .c-modal__backdrop {
   display: flex;
   align-items: center;

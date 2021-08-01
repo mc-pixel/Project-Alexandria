@@ -4,7 +4,23 @@
     <h1>Bookcatalog</h1>
   </header>
   
-      <div class="c-modal__backdrop">
+  <body>
+      
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="/__/firebase/8.8.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="/__/firebase/8.8.1/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/8.8.1/firebase-auth.js"></script>
+  <script src="/__/firebase/8.8.1/firebase-firestore.js"></script>
+<script src="/__/firebase/init.js"></script>
+
+    
+         <div class="c-modal__backdrop">
   <div class="c-modal">
     <div class="c-carousel js-carousel">
       <img class="c-carousel__item" src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1554919465/shape/mentalfloss/istock-157382617.jpg"/>
@@ -13,9 +29,6 @@
     </div>
   </div>
 </div>
-  
-  
-  <body>
     
     <p>To many people books are so much more tan just random words mixed together and pasted on a paper, they are keys that unlock the potential of the imagination , a small window to connect with ourselves, learn something or see ourselves reflected on the characters from those books</p>
     <ul id="tribute-info">
