@@ -11,7 +11,9 @@
   ]
 });*/
 
-var db = firebase.firestore();
+const db = firebase.firestore();
+
+
 var booksRef = db.collection("Books");
 
 var query = booksRef.where("Author", "==", "Isaac Asimov");
