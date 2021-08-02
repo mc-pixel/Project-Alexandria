@@ -1,4 +1,4 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.7.1/tiny-slider.css");
+/*@import url("https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.7.1/tiny-slider.css");*/
 body {
   background-color: black;
   color: white;
@@ -12,7 +12,7 @@ p{
 #tribute-info{
   padding-left:100px;
 }
-
+/*
 .c-modal__backdrop {
   display: flex;
   align-items: center;
@@ -88,3 +88,4 @@ p{
 .tns-nav button.tns-nav-active {
   width: 36px;
 }
+*/
