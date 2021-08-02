@@ -12,6 +12,9 @@ p{
 #tribute-info{
   padding-left:100px;
 }
+#map{
+  padding-top: 50px;
+}
 /*
 .c-modal__backdrop {
   display: flex;
